@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("plain/text");
         //address to send the message
-        intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "marcosbau5@parkifast.com" });
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "your email account" });
         //subject
         intent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
         //mail body
